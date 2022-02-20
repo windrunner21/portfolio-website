@@ -17,6 +17,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 export default function ZeroOne() {
   // create constant to look for changes in the device display size
   const theme = useTheme();
+  const isSM = useMediaQuery(theme.breakpoints.down("sm"));
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const isTablet = useMediaQuery(theme.breakpoints.down("lg"));
   const isSmall = useMediaQuery(theme.breakpoints.down("xl"));
@@ -26,7 +27,7 @@ export default function ZeroOne() {
       sx={{
         paddingTop: 25,
         px: isTablet ? (isMobile ? 5 : 25) : isSmall ? 30 : 55,
-        height: "100vh",
+        height: isSM ? "100%" : "100vh",
       }}
     >
       <Grid container direction="column" alignItems="stretch">

@@ -68,12 +68,12 @@ export default function ZeroZero(props) {
           <Grid container direction="row">
             <Grid item xs={12} sm={12} md={10} lg={10} xl={6}>
               <Typography sx={{ color: "#8892b0" }} lineHeight={2}>
-                I'm a software engineer that creates iOS applications and
-                websites. I love designing too. Constantly looking for a way to
+                I have built Payment Service Provider ecosystem all by myself in 4 months time. Checkout, Dashboard, Admin and Landing Website: front-end, back-end, deployment, documentation, API - to name but a few. Other than that I'm a full stack software engineer that creates iOS applications and
+                web systems. I love designing too. Constantly looking for a way to
                 improve day-to-day life by creating "problem solvers". Currently
                 working at &nbsp;
                 <Link
-                  href="https://isap.solutions"
+                  href="https://edero.vercel.app"
                   sx={{
                     cursor: "pointer",
                     color: "#64ffda",
@@ -83,9 +83,9 @@ export default function ZeroZero(props) {
                     },
                   }}
                 >
-                  iSAP Solutions
+                  Odero Azerbaijan
                 </Link>
-                &nbsp; building mobile and web applications.
+                &nbsp; improving and maintaining payments system.
               </Typography>
             </Grid>
           </Grid>

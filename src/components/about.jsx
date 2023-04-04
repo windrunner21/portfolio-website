@@ -67,8 +67,7 @@ export default function ZeroOne() {
                   >
                     Hello, friend!&nbsp; Hello, friend?&nbsp; That's lame.
                     &nbsp;Maybe I should give you a name.
-                    <br /> My name is Imran and I enjoy creating things: iOS
-                    applications and websites. My interest in computer
+                    <br /> My name is Imran and I enjoy creating new things, systems, anything that comes to my mind. My interest in computer
                     engineering started long ago in 2014 when I first watched{" "}
                     <Link
                       href="https://youtu.be/dU1xS07N-FA"
@@ -109,7 +108,7 @@ export default function ZeroOne() {
                     environments, increasing my enterpreneur and business
                     skills. At the same time I was deeply invested in mobile
                     engineering, learning cross-platform and native
-                    developments.
+                    developments. After building the Payment Service Provider ecosystem my love for the fintech sphere increased even more.
                   </Typography>
                 </Grid>
                 <Grid item>
@@ -209,7 +208,7 @@ export default function ZeroOne() {
                                   fontSize: 14,
                                 }}
                               >
-                                React JS
+                                Next.JS
                               </Typography>
                             </Grid>
                           </Grid>
@@ -230,7 +229,7 @@ export default function ZeroOne() {
                                   fontSize: 14,
                                 }}
                               >
-                                Material UI
+                                React.JS
                               </Typography>
                             </Grid>
                           </Grid>
@@ -251,7 +250,7 @@ export default function ZeroOne() {
                                   fontSize: 14,
                                 }}
                               >
-                                Ant Design
+                                Typescript
                               </Typography>
                             </Grid>
                           </Grid>
@@ -276,7 +275,28 @@ export default function ZeroOne() {
                                   fontSize: 14,
                                 }}
                               >
-                                Firebase Auth
+                                MongoDB
+                              </Typography>
+                            </Grid>
+                          </Grid>
+                        </Grid>
+                        <Grid item>
+                          <Grid container direction="row" spacing={1}>
+                            <Grid item>
+                              <CodeIcon
+                                fontSize="small"
+                                sx={{ color: "#64ffda" }}
+                              />
+                            </Grid>
+                            <Grid item>
+                              <Typography
+                                sx={{
+                                  color: "#8892b0",
+                                  fontWeight: 400,
+                                  fontSize: 14,
+                                }}
+                              >
+                                Redis
                               </Typography>
                             </Grid>
                           </Grid>
@@ -298,27 +318,6 @@ export default function ZeroOne() {
                                 }}
                               >
                                 Firebase Firestore
-                              </Typography>
-                            </Grid>
-                          </Grid>
-                        </Grid>
-                        <Grid item>
-                          <Grid container direction="row" spacing={1}>
-                            <Grid item>
-                              <CodeIcon
-                                fontSize="small"
-                                sx={{ color: "#64ffda" }}
-                              />
-                            </Grid>
-                            <Grid item>
-                              <Typography
-                                sx={{
-                                  color: "#8892b0",
-                                  fontWeight: 400,
-                                  fontSize: 14,
-                                }}
-                              >
-                                Firebase Storage
                               </Typography>
                             </Grid>
                           </Grid>

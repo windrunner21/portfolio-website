@@ -101,6 +101,14 @@ export default function ZeroTwo() {
               }}
             >
               <Tab
+                label="Token Azerbaijan LLC"
+                sx={{
+                  color: "#8892b0",
+                  textTransform: "none",
+                }}
+                disableRipple
+              />
+              <Tab
                 label="iSAP Solutions"
                 sx={{
                   color: "#8892b0",
@@ -140,6 +148,68 @@ export default function ZeroTwo() {
                       <Typography
                         sx={{ color: "#c2cceb", fontWeight: 700, fontSize: 20 }}
                       >
+                        Lead Software Engineer
+                      </Typography>
+                    </Grid>
+                    <Grid item>
+                      <Link
+                        href="https://isap.solutions"
+                        sx={{
+                          cursor: "pointer",
+                          color: "#64ffda",
+                          textDecoration: "none",
+                          ":hover": {
+                            textDecoration: "underline",
+                          },
+                        }}
+                      >
+                        @token-azerbaijan-llc
+                      </Link>
+                    </Grid>
+                  </Grid>
+                </Grid>
+                <Grid item>
+                  <Typography
+                    sx={{ color: "#c2cceb", fontWeight: 300, fontSize: 14 }}
+                  >
+                    June, 2022 - Present
+                  </Typography>
+                </Grid>
+
+                <Grid item sx={{ marginTop: 2 }}>
+                     <Grid container direction="row" alignItems="flex-start">
+                    <Grid item>
+                      <RightIcon sx={{ color: "#64ffda" }} />
+                    </Grid>
+                    <Grid item xs={10}>
+                      <Typography
+                        sx={{
+                          color: "#c2cceb",
+                          fontWeight: 400,
+                          fontSize: 15,
+                        }}
+                        lineHeight={2}
+                      >
+                        Maintaining and improving Turkey based payments system. Designed from scratch and implemented iOS SDK, WooCommerce Plugin. Added Subscriptions Service, completely re-designed front-end of merchant and admin panels.
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </Grid>
+              </Grid>
+            </TabPanel>
+            <TabPanel value={value} index={1}>
+              <Grid container direction="column" spacing={1}>
+                <Grid item>
+                  <Grid
+                    container
+                    direciton="row"
+                    alignItems="center"
+                    spacing={1}
+                  >
+                    <Grid item>
+                      <Typography
+                        sx={{ color: "#c2cceb", fontWeight: 700, fontSize: 20 }}
+                      >
                         Software Engineer
                       </Typography>
                     </Grid>
@@ -164,7 +234,7 @@ export default function ZeroTwo() {
                   <Typography
                     sx={{ color: "#c2cceb", fontWeight: 300, fontSize: 14 }}
                   >
-                    Jan, 2022 - Present
+                    Jan, 2022 - May, 2022
                   </Typography>
                 </Grid>
 
@@ -191,7 +261,7 @@ export default function ZeroTwo() {
                 </Grid>
               </Grid>
             </TabPanel>
-            <TabPanel value={value} index={1}>
+            <TabPanel value={value} index={2}>
               <Grid container direction="column" spacing={1}>
                 <Grid item>
                   <Grid
@@ -279,7 +349,7 @@ export default function ZeroTwo() {
                 </Grid>
               </Grid>
             </TabPanel>
-            <TabPanel value={value} index={2}>
+            <TabPanel value={value} index={3}>
               <Grid container direction="column" spacing={1}>
                 <Grid item>
                   <Grid
@@ -349,7 +419,7 @@ export default function ZeroTwo() {
                 </Grid>
               </Grid>
             </TabPanel>
-            <TabPanel value={value} index={3}>
+            <TabPanel value={value} index={4}>
               <Grid container direction="column" spacing={1}>
                 <Grid item>
                   <Grid

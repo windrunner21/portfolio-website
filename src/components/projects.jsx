@@ -21,6 +21,13 @@ export default function ZeroThree() {
 
   const projects = [
     {
+      image: "https://i.ibb.co/XWSKqPn/web-dash.png",
+      name: "PSP by Imran Hajiyev",
+      description:
+        "Payments Service Provider Ecosystem. Allows SME and LE businesses to accept online payments. Consists of Checkout Page, Dashboard for businesses, Admin Dashboard and Landing Page. Integrations available by API.",
+      stack: ["Next.JS", "Typescript", "Node.JS", "MongoDB", "Redis", "UI'UX", "Swagger"],
+    },
+    {
       image: "https://i.ibb.co/V3zVcKC/app-copy.png",
       name: "Meowclava",
       description:

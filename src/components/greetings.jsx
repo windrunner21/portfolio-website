@@ -73,7 +73,7 @@ export default function ZeroZero(props) {
                 improve day-to-day life by creating "problem solvers". Currently
                 working at &nbsp;
                 <Link
-                  href="https://edero.vercel.app"
+                  href="https://odero.az"
                   sx={{
                     cursor: "pointer",
                     color: "#64ffda",
